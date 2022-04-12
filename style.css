@@ -1,156 +1,92 @@
-body {
-  margin: 0px;
-  font-family: 'Merriweather', serif;
+body{
+  margin: 0;
+  color: black;
   text-align: center;
 }
-
-.top-container {
-  background-color: #E3FEFC;
+.top-container{
+  background-color: yellow;
   position: relative;
-  padding-top: 200px;
-}
+  padding-top: 100px;
 
-.top-cloud {
+}
+.top-cloud{
   position: absolute;
-  right: 200px;
-  top: 100px;
-}
+  right: 250px;
 
-h1 {
+
+}
+h1{
   font-family: 'Sacramento', cursive;
   color: #09EDC3;
-  font-size: 100px;
+  font-size: 31px;
   font-weight: normal;
+  margin-top: 88px;
 }
-
-h2 {
-  font-family: 'Merriweather', serif;
-  font-size: 50px;
-  font-weight: normal;
+h2{  font-family: 'Sacramento', cursive;
   color: #09EDC3;
-  padding: 57px 0;
-}
-
-.middle-cloud {
+  font-size: 31px;
+  font-weight: normal;
+  padding: 57px 0px;
+}.middle-container{
   position: absolute;
-  left: 200px;
+  left: 54px;;
 }
-
-.bottom-mountain {
-  margin-top: 60px;
+.bottom-mountain{
+      margin-top: 114px;
 }
-
-.profile-image {
-  width: 200px;
-  height: 200px;
+.intro-pic{
+  height: 184px;
+  width: 188px;
   border-radius: 100px;
-  margin: 10px;
-}
-
-.intro {
-  width: 30%;
-  margin: auto;
-  line-height: 36px;
-}
-
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-width: 5px;
-  width: 6%;
-}
-
-.profile {
-  padding: 111px 0;
-}
-
-.skillfirstpic {
-  width: 166px;
-  height: 160px;
-  float: left;
-  margin-right: 80px;
-}
-
-.intro-skill {
-  text-align: left;
-  font-size: 17px;
-  line-height: 1.7;
-}
-
-h3 {
-  color: #06DEDA;
-}
-
-.skillsecondpic {
-  width: 166px;
-  height: 160px;
-  float: right;
-  margin-left: 80px;
-}
-
-.skillthirdpic {
-  width: 166px;
-  height: 160px;
-  float: left;
-  margin: 0 93px 0 -31px;
-}
-
-.Skill-1 {
-  width: 50%;
-  margin: 100px auto;
-}
-
-.Skill-1 h3 {
-  color: #09EDC3;
-  text-align: left;
-}
-.Touch-skill{
-  margin: 70px auto 77px;
-width: 31%;
-line-height: 2;
-}
-.button-container{
-  background-color: #09EDC3;
-      padding: 48px 0 48px;
-          margin: 93px 0 0 0;
-}
-.contactme-button{
-  padding: 21px 145px;
-  font-size:21px;
-  font-family:Courier New;
-  width:300px;
-  height:46px;
-  border-width:1px;
-  color:#ffffff;
-  border-color:#057fd0;
-  font-weight:bold;
-  border-top-left-radius:15px;
-  border-top-right-radius:15px;
-  border-bottom-left-radius:15px;
-  border-bottom-right-radius:15px;
-  box-shadow: 0px 1px 0px 0px #f0f7fa;
-  text-shadow: 0px -1px 0px #5b6178;
-  background:linear-gradient(#33bdef, #019ad2);
-  text-decoration: none;
-}
-
-.contactme-button:hover {
-  background: linear-gradient(#019ad2, #33bdef);
-}
 
 }
-.copyright{
-  color: #EAF6F6;
-      margin: 48px 0 0 0;
+.profile{
+    margin: 34px 357px;
 }
-.footer-link{
-  color: #046F50;
-  margin: 24px 23px;
+.intro{
   font-family: 'Sacramento', cursive;
-  font-size: 40px;
-  text-decoration: none;
+  font-weight: normal;
+  font-size: 30px;
+  color:orange;
+  line-height: 30px;
+  margin: auto;
 }
-.footer-link:hover{
-  color: #EAF6F6;
+hr{
+  border-style: none;
+  border-width: 10px;
+  border-top-style: dotted;
+  width: 100px;
+  color: red;
+  margin: 63px auto;
+
+}
+ .fpic{
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  float: left;
+
+}
+.spic{
+   height: 100px;
+    width: 100px;
+    border-radius: 17px;
+    float: right;
+}
+.tpic{
+  height: 100px;
+width: 100px;
+border-radius: 3px;
+float: left;
+}
+.intro-skill{
+
+  line-height: 20px;
+
+
+}
+.skill-row{
+  margin: auto;
+  width: 20%;
 
 }
